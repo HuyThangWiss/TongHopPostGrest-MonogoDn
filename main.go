@@ -11,3 +11,9 @@ func main() {
 	r.GET("/api/search",Config.Search)
 	r.Run()
 }
+//	jsonStr := make(map[string]interface{})
+//	var err1 = json.Unmarshal(body, &jsonStr)
+//	if err1 != nil{
+//		log.Fatalln(err1)
+//		return
+//	}
